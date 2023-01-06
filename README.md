@@ -6,4 +6,6 @@ The basic setting and data dictionary provided by the committee are contained in
 
 In specific, one should open the "data cleaning" file first, and then apply the csv file of cleaned dataset from this file to build random forest model and XGBoost model in other files.
 
+Finally, you can open the "after tuning hyperparameter" file to see how we implement the optimzed hyperparameters and extract final submissions.
+
 The ranking is based on ROC curve and AUC metric, and we reached an AUC-ROC score of 0.75 (ranked 24th finally).
